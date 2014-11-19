@@ -1,0 +1,17 @@
+{
+    "name": "opis-colibri/welcome",
+    "description": "Welcome module",
+    "keywords": ["opis", "colibri", "module", "welcome module"],
+    "homepage": "http://opis.io",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Marius Sarca",
+            "email": "marius.sarca@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "opis-colibri/module-installer": "1.0.*",
+    }
+}

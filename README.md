@@ -1,4 +1,4 @@
-welcome
-=======
+Welcome module
+==============
 
 The Welcome module
