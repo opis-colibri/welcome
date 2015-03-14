@@ -25,7 +25,7 @@
                 border-bottom:1px #ddd solid;
             }
         </style>
-        <script src="<?php echo Asset('system', 'js/jquery-1.11.0.min.js');?>"></script>
+        <script src="<?php echo Asset('system', 'js/jquery-1.x.min.js');?>"></script>
         <script src="<?php echo Asset('system', 'js/bootstrap.min.js');?>"></script>
     </head>
     <body>
