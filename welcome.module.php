@@ -23,7 +23,7 @@ use Opis\Colibri\Define;
 //Collect routes
 Define::Routes(function($route){
     
-    $route->get('/', function(){
+    $route('/', function(){
         return View('welcome');
     });
     
