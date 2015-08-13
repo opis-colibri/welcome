@@ -12,11 +12,6 @@
         }
     ],
     "require": {
-        "opis-colibri/core": "~1.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
+        "opis-colibri/core": "^1.2.0"
     }
 }
