@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Welcome</title>
+        <link rel="shortcut icon" href="<?php echo Asset('system', 'img/favicon.png');?>">
         <link rel="stylesheet" href="<?php echo Asset('system', 'css/bootstrap.min.css');?>">
         <link rel="stylesheet" href="<?php echo Asset('system', 'css/font-awesome.min.css');?>">
         <style>
