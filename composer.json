@@ -11,7 +11,7 @@
             "email": "marius.sarca@gmail.com"
         }
     ],
-    "require": {
-        "opis-colibri/core": "^1.2.0"
+    "conflict": {
+        "opis-colibri/core": "<1.2.0 | >=2.0.0"
     }
 }

@@ -1,4 +1,5 @@
 {
     "title": "Welcome module",
-    "description": "The welcome module"
+    "description": "The welcome module",
+    "dependencies": ["system"]
 }
