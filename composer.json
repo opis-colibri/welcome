@@ -10,5 +10,10 @@
             "name": "Marius Sarca",
             "email": "marius.sarca@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
+    }
 }
