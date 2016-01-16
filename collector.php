@@ -18,19 +18,19 @@
  * limitations under the License.
  * ============================================================================ */
 
-use Opis\Colibri\Define;
+use Opis\Colibri\Collect;
 
 //Collect routes
-Define::Routes(function($route){
+Collect::Routes(function($route){
     
-    $route('/', function(){
-        return View('welcome');
+    $route('/', function($app){
+        return $app->view('welcome');
     });
     
 });
 
 //Collect views
-Define::Views(function($view){
+Collect::Views(function($view){
     
     $view->handle('welcome', function(){
         return __DIR__ . '/welcome.php';
