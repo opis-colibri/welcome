@@ -18,22 +18,30 @@
  * limitations under the License.
  * ============================================================================ */
 
-use Opis\Colibri\Collect;
+namespace Opis\Colibri\ModuleCollector;
 
-//Collect routes
-Collect::Routes(function($route){
-    
-    $route('/', function($app){
-        return $app->view('welcome');
-    });
-    
-});
+use Opis\Colibri\ModuleCollector;
 
-//Collect views
-Collect::Views(function($view){
-    
-    $view->handle('welcome', function(){
-        return __DIR__ . '/welcome.php';
-    });
-    
-});
+class Welcome extends ModuleCollector
+{
+
+    /**
+     * Collect routes
+     */
+    public function routes($route, $app)
+    {
+        $route('/', function($app) {
+            return $app->view('welcome');
+        });
+    }
+
+    /**
+     * Collect views
+     */
+    public function views($view, $app)
+    {
+        $view->handle('welcome', function() {
+            return __DIR__ . '/welcome.php';
+        });
+    }
+}
