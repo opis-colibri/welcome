@@ -30,8 +30,8 @@ class Welcome extends ModuleCollector
      */
     public function routes($route, $app)
     {
-        $route('/', function($app) {
-            return $app->view('welcome');
+        $route('/', function($view) {
+            return $view('welcome');
         });
     }
 
