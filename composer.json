@@ -12,6 +12,11 @@
         }
     ],
     "extra": {
+        "module": {
+            "title": "Welcome module",
+            "description": "The welcome module",
+            "dependencies": ["system"]
+        },
         "branch-alias": {
             "dev-master": "2.0-dev"
         }
