@@ -17,6 +17,11 @@
     "autoload": {
         "classmap": ["collect.php"]
     },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
     "extra": {
         "title": "Welcome module",
         "branch-alias": {
