@@ -11,14 +11,16 @@
             "email": "marius.sarca@gmail.com"
         }
     ],
+    "require": {
+        "opis-colibri/system": "3.0.*@dev"
+    },
+    "autoload": {
+        "classmap": ["collect.php"]
+    },
     "extra": {
-        "module": {
-            "title": "Welcome module",
-            "description": "The welcome module",
-            "dependencies": ["system"]
-        },
+        "title": "Welcome module",
         "branch-alias": {
-            "dev-master": "2.0-dev"
+            "dev-master": "3.0-dev"
         }
     }
 }
