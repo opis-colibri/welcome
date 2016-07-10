@@ -15,7 +15,9 @@
         "opis-colibri/system": "3.0.*@dev"
     },
     "autoload": {
-        "classmap": ["collect.php"]
+        "psr-4": {
+            "OpisColibri\\Welcome\\": "src/"
+        }
     },
     "config": {
         "preferred-install": "dist"
@@ -24,6 +26,10 @@
     "minimum-stability": "dev",
     "extra": {
         "title": "Welcome module",
+        "collector": {
+            "class": "OpisColibri\\Welcome\\Collector",
+            "file": "src/Collector.php"
+        },
         "branch-alias": {
             "dev-master": "3.0.x-dev"
         }
