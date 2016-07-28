@@ -2,9 +2,9 @@
 <html>
     <head>
         <title>Welcome</title>
-        <link rel="shortcut icon" href="<?= $app->getAsset('opis-colibri/system', 'img/favicon.png') ?>">
-        <link rel="stylesheet" href="<?= $app->getAsset('opis-colibri/system', 'css/bootstrap.min.css') ?>">
-        <link rel="stylesheet" href="<?= $app->getAsset('opis-colibri/system', 'css/font-awesome.min.css') ?>">
+        <link rel="shortcut icon" href="<?= $this->getAsset('opis-colibri/system', 'img/favicon.png') ?>">
+        <link rel="stylesheet" href="<?= $this->getAsset('opis-colibri/system', 'css/bootstrap.min.css') ?>">
+        <link rel="stylesheet" href="<?= $this->getAsset('opis-colibri/system', 'css/font-awesome.min.css') ?>">
         <style>
             body{
                 background: #fefefe;
@@ -26,14 +26,14 @@
                 border-bottom:1px #ddd solid;
             }
         </style>
-        <script src="<?= $app->getAsset('opis-colibri/system', 'js/jquery-1.x.min.js');?>"></script>
-        <script src="<?= $app->getAsset('opis-colibri/system', 'js/bootstrap.min.js');?>"></script>
+        <script src="<?= $this->getAsset('opis-colibri/system', 'js/jquery-1.x.min.js');?>"></script>
+        <script src="<?= $this->getAsset('opis-colibri/system', 'js/bootstrap.min.js');?>"></script>
     </head>
     <body>
         <div class="center-block" style="width: 720px; margin-top: 180px">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="<?= $app->getAsset('opis-colibri/system', 'img/opis-colibri.png');?>">
+                    <img src="<?= $this->getAsset('opis-colibri/system', 'img/opis-colibri.png');?>">
                 </div>
                 <div class="col-md-6">
                     <h1 class="blue-text">
