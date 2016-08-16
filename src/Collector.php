@@ -1,9 +1,6 @@
 <?php
 /* ===========================================================================
- * Opis Project
- * http://opis.io
- * ===========================================================================
- * Copyright 2014 Marius Sarca
+ * Copyright 2013-2016 The Opis Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,10 +17,12 @@
 
 namespace OpisColibri\Welcome;
 
-use Opis\Colibri\AppHelper;
 use Opis\Colibri\Collectors\RouteCollector;
 use Opis\Colibri\Collectors\ViewCollector;
 use Opis\Colibri\ModuleCollector;
+use function Opis\Colibri\Helpers\{
+    view
+};
 
 class Collector extends ModuleCollector
 {
@@ -35,8 +34,8 @@ class Collector extends ModuleCollector
      */
     public function routes(RouteCollector $route)
     {
-        $route('/', function(AppHelper $app) {
-            return $app->view('welcome');
+        $route('/', function() {
+            return view('welcome');
         });
     }
 
