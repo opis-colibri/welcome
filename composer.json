@@ -32,6 +32,9 @@
                 "file": "src/Collector.php"
             }
         },
+        "application": {
+            "assets-dir": "web_assets"
+        },
         "branch-alias": {
             "dev-master": "3.0.x-dev"
         }
