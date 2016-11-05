@@ -25,10 +25,12 @@
     "prefer-stable": true,
     "minimum-stability": "dev",
     "extra": {
-        "title": "Welcome module",
-        "collector": {
-            "class": "OpisColibri\\Welcome\\Collector",
-            "file": "src/Collector.php"
+        "module": {
+            "title": "Welcome module",
+            "collector": {
+                "class": "OpisColibri\\Welcome\\Collector",
+                "file": "src/Collector.php"
+            }
         },
         "branch-alias": {
             "dev-master": "3.0.x-dev"
