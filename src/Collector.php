@@ -20,7 +20,7 @@ namespace OpisColibri\Welcome;
 use Opis\Colibri\Collectors\RouteCollector;
 use Opis\Colibri\Collectors\ViewCollector;
 use Opis\Colibri\ModuleCollector;
-use function Opis\Colibri\Helpers\{
+use function Opis\Colibri\Functions\{
     view
 };
 
