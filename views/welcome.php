@@ -3,7 +3,7 @@
     <head>
         <title>Welcome</title>
         <link rel="shortcut icon" href="<?= $this->asset('opis-colibri/system', 'favicon.png') ?>">
-        <link rel="stylesheet" href="<?= $this->asset('bootstrap', 'css/bootstrap.min.css') ?>">
+        <link rel="stylesheet" href="<?= $this->asset('bootstrap', 'dist/css/bootstrap.min.css') ?>">
         <link rel="stylesheet" href="<?= $this->asset('font-awesome', 'css/font-awesome.min.css') ?>">
         <style>
             body{
@@ -26,8 +26,8 @@
                 border-bottom:1px #ddd solid;
             }
         </style>
-        <script src="<?= $this->asset('jquery', 'jquery.min.js');?>"></script>
-        <script src="<?= $this->asset('bootstrap', 'js/bootstrap.min.js');?>"></script>
+        <script src="<?= $this->asset('jquery', 'dist/jquery.min.js');?>"></script>
+        <script src="<?= $this->asset('bootstrap', 'dist/js/bootstrap.min.js');?>"></script>
     </head>
     <body>
         <div class="center-block" style="width: 720px; margin-top: 180px">
