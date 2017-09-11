@@ -16,10 +16,10 @@
  * ============================================================================ */
 
 namespace OpisColibri\Welcome;
-
-use Opis\Colibri\Collectors\RouteCollector;
-use Opis\Colibri\Collectors\ViewCollector;
-use Opis\Colibri\ModuleCollector;
+use Opis\Colibri\Containers\{
+    RouteCollector, ViewCollector
+};
+use Opis\Colibri\Collector as ModuleCollector;
 use function Opis\Colibri\Functions\{
     view
 };
