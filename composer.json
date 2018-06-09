@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "opis-colibri/system": "3.0.x-dev"
+        "opis/colibri": "2.0.x-dev"
     },
     "autoload": {
         "psr-4": {
@@ -31,9 +31,6 @@
                 "class": "OpisColibri\\Welcome\\Collector",
                 "file": "src/Collector.php"
             }
-        },
-        "application": {
-            "assets-dir": "web_assets"
         },
         "branch-alias": {
             "dev-master": "3.0.x-dev"
