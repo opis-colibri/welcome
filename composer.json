@@ -27,6 +27,7 @@
     "extra": {
         "module": {
             "title": "Welcome module",
+            "assets": "assets",
             "collector": {
                 "class": "OpisColibri\\Welcome\\Collector",
                 "file": "src/Collector.php"
