@@ -15,7 +15,8 @@
  * limitations under the License.
  * ============================================================================ */
 
-namespace OpisColibri\Welcome;
+namespace Opis\Colibri\Modules\Welcome;
+
 use Opis\Colibri\ItemCollectors\{
     RouteCollector, ViewCollector
 };
@@ -34,7 +35,7 @@ class Collector extends AbstractCollector
      */
     public function routes(RouteCollector $route)
     {
-        $route('/', function() {
+        $route('/', function () {
             return view('welcome');
         });
     }
@@ -46,7 +47,7 @@ class Collector extends AbstractCollector
      */
     public function views(ViewCollector $view)
     {
-        $view->handle('welcome', function() {
+        $view->handle('welcome', function () {
             return realpath(__DIR__ . '/../views/welcome.php');
         });
     }

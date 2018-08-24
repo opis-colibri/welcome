@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OpisColibri\\Welcome\\": "src/"
+            "Opis\\Colibri\\Modules\\Welcome\\": "src/"
         }
     },
     "config": {
@@ -28,10 +28,7 @@
         "module": {
             "title": "Welcome module",
             "assets": "assets",
-            "collector": {
-                "class": "OpisColibri\\Welcome\\Collector",
-                "file": "src/Collector.php"
-            }
+            "collector": "Opis\\Colibri\\Modules\\Welcome\\Collector"
         },
         "branch-alias": {
             "dev-master": "3.0.x-dev"
